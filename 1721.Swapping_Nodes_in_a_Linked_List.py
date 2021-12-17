@@ -34,5 +34,19 @@ class ListNode:
         self.next = next
 class Solution:
     def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        pass
+        if head == None:
+            return head
+        
+        first = last = head
+        
+        for i in range(1, k):
+            first = first.next
+            
+        v = first
+        
+        while v.next: 
+            last = last.next
+            v = v.next
+        first.val, last.val = last.val, first.val
+        return head
         
