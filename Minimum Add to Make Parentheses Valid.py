@@ -53,6 +53,6 @@ def minAddToMakeValid(s: str) -> int:
 
         return len(stack)
 
-# print(minAddToMakeValid("((("))
-# print(minAddToMakeValid("())"))
+print(minAddToMakeValid("((("))
+print(minAddToMakeValid("())"))
 print(minAddToMakeValid("()))(("))
