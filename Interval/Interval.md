@@ -5,10 +5,9 @@ The Merge Intervals pattern is an efficient technique to deal with overlapping i
 
 Given two intervals (‘a’ and ‘b’), there will be six different ways the two intervals can relate to each other:
 
+![alt text](https://github.com/Awinja-j/75-Blind-Interview-Questions/blob/main/Interval/G9YRlqC9joZNTWsi1ul7tRkO6tv1-8mh13wm9.jpeg)
+
 Understanding and recognizing these six cases will help you help you solve a wide range of problems from inserting intervals to optimizing interval merges.
-
-![alt text](image url)
-
 
 
 How do you identify when to use the Merge Intervals pattern?
